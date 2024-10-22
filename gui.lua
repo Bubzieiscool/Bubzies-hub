@@ -480,3 +480,8 @@ Main_:CreateButton("Slasher", "Slasher", "", "", "", "", function()
 end)
 loadstring(response)()
 end)
+
+MainSection:NewButton("BetterBypasser (AI and bypass)", "Test", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Synergy-Networks/products/main/BetterBypasser/loader.lua",true))()
+loadstring(response)()
+end)
