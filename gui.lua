@@ -630,3 +630,8 @@ end
 end)
 loadstring(response)()
 end)
+
+MainSection:NewButton("redz hub blox fruits no key", "Test", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+loadstring(response)()
+end)
