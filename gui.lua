@@ -13,7 +13,12 @@ end)
 
 MainSection:NewButton("Redz Hub blox fruits", "Test", function()
     MainSection:NewButton("Redz Hub Blox fruits.", "Test", function()
-    local response = game:HttpGet("https://paste.ee/d/JR0bn")
+    local response = game:local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
 loadstring(response)()
 end)
 loadstring(response)()
