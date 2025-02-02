@@ -1,0 +1,908 @@
+--[[
+||      ||
+|| FOR GENESIS HATS ||
+||      ||
+
+// Paid
+Noob rig:
+Right Arm: 18640914168
+Left Arm: 18640914168
+Right Leg: 18640901676
+Left Leg: 18640901676
+Torso: 18640899481
+or
+arm:
+https://www.roblox.com/catalog/14768701869/White-Arm-Extention
+arm2: https://www.roblox.com/catalog/14768693948/White-Arm-Extention
+Torso: https://www.roblox.com/catalog/14768678294/Torso-extention
+leg: https://www.roblox.com/catalog/11263254795/Dummy-Head-For-Headless
+leg2: https://www.roblox.com/catalog/11159410305/Rectangle-Head-For-Headless
+there's much more rigs in genesis there's free one too find more rigs paid/free at:
+https://www.roblox.com/games/14133411956/Foundation
+
+--------------------------------------------------------------------------------
+
+||      ||
+|| MELON SCRIPTER HATS ||
+||      ||
+
+// Paid
+https://www.roblox.com/catalog/12344591101/Extra-Right-hand-moving-Blocky-white 
+https://www.roblox.com/catalog/12344545199/Extra-Left-hand-moving-Blocky-white
+https://www.roblox.com/catalog/11159410305/Rectangle-Head-For-Headless
+https://www.roblox.com/catalog/11263254795/Dummy-Head-For-Headless
+https://www.roblox.com/catalog/13779879140/Black-Fluffy-Fur-Body
+
+// Free
+https://www.roblox.com/catalog/4819740796/Robox
+https://www.roblox.com/catalog/3033910400/International-Fedora-Germany
+https://www.roblox.com/catalog/3409612660/International-Fedora-USA
+https://www.roblox.com/catalog/9867481700/Le-Rouge-Cross-body-Bag-1-0
+https://www.roblox.com/catalog/9867487176/Le-Rouge-Cross-body-Bag-3-0
+]]
+
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+local window = DrRayLibrary:Load("Pendulum Hub Remake", "Default")
+
+local tab = DrRayLibrary.newTab("Scripts", "ImageIdHere")
+
+local tab1 = DrRayLibrary.newTab("Settings", "ImageIdHere")
+
+local tab2 = DrRayLibrary.newTab("Credits", "ImageIdHere")
+
+tab.newButton("if u want use hat scripts check source of script and equip", "", function()
+print("Hello!")
+end)
+
+tab2.newButton("Pendulum Hub Remake by OnlyScripts", "I made it button cuz label not work ;-;", function()
+print("Hello!")
+end)
+
+tab2.newButton("Copy Channel link", "Click to copy", function()
+setclipboard("https://m.youtube.com/channel/UCdYm0wL69eqPR3hQAOTUpIA")
+end)
+
+tab1.newButton("StopAnimate", "for hatless animations", function()
+game.Players.LocalPlayer.Character.Humanoid.Health = 0
+end)
+
+tab1.newButton("StopAnimate2", "for hatless animations", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(270.5999450683594, -73.77348327636719, 112.63313293457031)
+end)
+
+tab.newButton("Neptunian V", "Genesis working on all games (hat needed)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Neptunian%20V"))()
+end)
+
+tab.newButton("Sonic", "your body must be r6 and equip any hat or hair", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/uacVtsWe"))()
+end)
+
+tab.newButton("Joy", "THIS STUFF NOT WORK", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3IUQBUy"))()
+end)
+
+tab.newButton("Elio Blasio", "THIS STUFF NOT WORK", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3HYO4ru"))()
+end)
+
+tab.newButton("Ender", "Idk if its working on r15", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/9BtJhHrp", true))()
+end)
+
+tab.newButton("KillBot V2", "THIS STUFF NOT WORK", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3sQWSuV"))()
+end)
+	
+tab.newButton("Star Platinum Over Heaven", "genesis Works on all games r6/r15 hats needed", function()
+-- SET THE VARIABLE BELOW TO TRUE TO DISABLE ALL EFFECTS, COULD HELP WITH PERFORMANCE ISSUES
+DisableFX = true
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Star%20Glitcher"))()
+end)
+
+tab.newButton("Chill", "THIS STUFF NOT WORK", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3pOdNfP"))()
+end)
+
+tab.newButton("Lutris v2", "THIS STUFF NOT WORK", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3vKDz8A"))()
+end)
+
+tab.newButton("Memeus v2.5", "THIS STUFF NOT WORK", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3tHxG9k"))()
+end)
+
+tab.newButton("Meme animation", "idk if its working on r15", function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Fe-Silly-animation-V4-16636"))()
+end)
+
+tab.newButton("Krystal dance", "Genesis working on all games needed hats", function()
+--[[
+_________                       _____            ___________________
+__  ____/__________________________(_)_______    ___  ____/__  ____/
+_  / __ _  _ \_  __ \  _ \_  ___/_  /__  ___/    __  /_   __  __/   
+/ /_/ / /  __/  / / /  __/(__  )_  / _(__  )     _  __/   _  /___   
+\____/  \___//_/ /_/\___//____/ /_/  /____/      /_/      /_____/   							
+
+by rqz					
+https://discord.com/invite/aEZpBEHgMT
+]]--
+
+--====================================--
+--           FDless Options           --
+--====================================--
+
+allowshiftlock = true --adds shiftlock to patchma rig
+ctrltp = true --adds control click tp
+placeholders = true --adds transparent parts showing your hats when you don't have real ones
+clickfling = true --adds click flinging regardless of attacks
+highlightflingtargets = true --highlight fling
+discharscripts = true --disable character scripts
+flingchangestate = true --fling with whole body
+hidedeatheffect = true --hides the red damage border when you die (respawn)
+respawntp = 3 --respawn tp mode
+-- 0 - stay at spawn
+-- 1 - randomtp close
+-- 2 - behind fake character
+-- 3 - hide body
+breakjointsmethod = 1 --breakjoints mode
+-- 1 - health+breakjoints (the most support)
+-- 2 - health or breakjoints
+-- 3 - breakjoints
+simrad = true --sets simulation radius
+
+--==========================================================================================================================--
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Krystal%20Dance"))()
+
+--==========================================================================================================================--
+
+
+
+end)
+
+tab.newButton("Krystal dance 2", "idk if works on r15", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheSuperFox/FE-Krystal-Dance-Credits-to-Nebula_Zorua/main/FE%20Krystal%20Dance%20Be%20Nebula_Zorua"))();
+end)
+
+tab.newButton("Spinning Blade", "genesis working on all games needed hats", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Neptunian%20V"))()
+end)
+
+tab.newButton("Xester", "THIS STUFF NOT WORK", function()
+loadstring(game:HttpGetAsync("https://bit.ly/35xGEyg"))()
+end)
+
+tab.newButton("Caducus", "idk if its working on r15", function()
+loadstring(game:HttpGet("https://pastefy.app/awJrO3Q5/raw"))()
+--[[
+warn("<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>")	
+
+		warn(">Caducus the Fallen God<")
+
+warn("Script created by SezHu for public use in Void's Script Builder.")
+
+warn("<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>")
+
+
+	>D͕̪͇̪̻̼͙o̶̱̣͙̱̦̚ ͔͈̱̲̆̄ͫ̾n̺͉̻͍̻̂ͦ̓̈ͤ́ơ̮̤̙̯ͤ͐ͬ̏ͥt̞̹̜͇̏ͩ̕ ̙̰̠͕ͤw̘ͨ̑̓̍͋ͩ͌o̡̞̦̜̟̻̐ͨͦ͐ͨ͊͗r̬͊̔̓͑͆̚r̳̬ͤ̓͌̿̅y͜ ̗̭͇͈̖̠̔̌c̨̊̑̔h̳̪͈̟͇̺̱i̻̳̥̭͚̘ͪ͂̄̊̄͒ͨl̝̗̙̀d̜̍ͧ̐̓̒̆͐ͅ,̸͓̠ͨ̍̌ͩ̾ͭ ̷̝͔̺̯̖̰̓͌ͫ͆͋ͩͅt̶̬͍̲̮̹̙͐̃ͭͨ̑hͯ̓̍ḙ̪͍̖͉̾ͨ ̯͙̓ͯ̍̔͡p̟̩ả͏͍̜͖̦̩̣i͏̳̘̝̞ͅṅ̼̯̆̾̉͆̏ͫ ̦͕͊͌̏̀̾̏̀̚w͙̗̝̼̖ͧͪͤ̓̄͐ͅiͧ̎̍͛͡l̡̦̖̦̖̃ͫ͌l̫̪͔̫̮͚͋̚ ̮̣̣͉͉̝̀ͅb̸ͩ́͑͋͗͋̽ë̼̺̱̦͚͕́̈́̈ͨ͞ ̯̦̫̿̓͞o̖̺̟̮͛̋̓͐ͫv̍͊͆ͨ̽e̢͔̱̝ͪ̍ͥͭ͆ͯ̅ͅṛ͔͉̥̬͙̆̌ ̘̖͉̰ͧͦ̈͢s̫̹̯̪͆̓̾͘o̧͙͙̖̗̮͍̹̓ͦ͛͒̔o̪̫͋͌̂̏̄ñ̰̫͎̦̆̓͒̓<
+
+
+	>Y̹̟̼̞̦ͥ̏̓o̗̳̗̭ͨ̆͊̊͌̉ͅͅu̪͒̇͛̚ͅr̟̲͙̹̽̓ ͂͢s̢̞̮̞ͥ̊ͦͯ͋̏t͚͚̺̭̥͓̗ͪ̿ͦ͐r͕͎̰̟̝̦͚ͫͩ̀u͛ͤ͌g͇̼̘̗ͣ̎͂̔̿͋g̙̜͇̼̝͔̋l͗̍̿̇ͧͯ͏̗̞̟̜e͏ ̺̤͍͈ͨ̈́͢i̜̤̤͖͓͕͐͂ͨ̊s̹͚͈̮̦ͬͥ̄̾̆ͧ̚ ̙͚̓̾n͎͓̟̞̺̥̾ͦ̐̂ͧo̾͆͠t̗͙̰̟̫ͦ ̷̰̜͇̣̼̗̐̎̂̚ì̗̼͖̬͎̪̭ͮͩ̓ṋ̝ͣ ͔v̢̮̘̟̾ͨa̵̬̙̻ͤͨ͂͌ͬͅi̱̘͓ͩ͛̇̓ͯ͜n͋̌͛̈́.̰͙ͫ<
+
+
+	>We̛͎͍̥͚͔ͥ̃͂ ̮̥͔̝̟̅̅͌ͭ̃ͯͨ͠s̩͕͕̿̐͒ͦ̐ͪh͓̖̓ͣ̉͒ͬ̋̚a̱̮l̰̲͊̽̂̓̓͗ͅḻ̖̲̞̂̐̿͡ͅ ͚̬̥̹͔͉̥ͦ̚t͔͘a̝̠̮ͥ̍̉͑̀̌͋k̮̳̫͚̱̙͇̄͑̓͆ͩe͚̳̭̥͇̭͗̋̋͌͊̆̉ ͪy͖o͉͖̫͎ͣͬͬͥ̃ṵ̡̻̜ͮ̎̑̉ͯ͋͆ ̶̰̻̬̠̀͗̈́̐ṯ̨ͥͣͮ̊ỏ̶̳̦̘̲͒̈̚̚ ̫͎̪̲͔̮ͨ́̉͂ͯ̿̚͞ͅa͙̯̤̺̹͕͝ ͍̈́͗͛̈́b̫͊̔̔͋͆ͥͮe͆t̩͈̬̖̽ͬt̩̺̗̬͓̟̱ͭe͉͔ͅr̸͐̈́͋̐ ̢͍͉͕͚͚̖͍p͈̝͗̔́̔͌̿l͙̘̪̺͑ͥ́͗̇ͧ͜a̘̝͓̙͖̥ͩ̈c̨͖̫̩̞͇ͮe͉ͧ̌<
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+		<>Controls<>
+		
+Click: Wretched Row	<> (Can be used during Z)	
+
+Z: Spectral Sprint <> (supafast)
+
+X: Vile Vault <> (D U N K)
+
+C: The Spire <> (Explosion at mouse)
+
+V: Blot Out The Sun <> (Fragmenting dark meteors)
+
+B: Then Make a New One <> (Pew pew laser)
+
+N: Capture <> (Mouse on player then press the button)
+
+M: The Cataclyst <> (Ready Player One reference ftw. This move will kick you.)
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+]]--
+end)
+
+tab.newButton("Minigun", "genesis working on all games needed hats", function()
+		--[[
+_________                       _____            ___________________
+__  ____/__________________________(_)_______    ___  ____/__  ____/
+_  / __ _  _ \_  __ \  _ \_  ___/_  /__  ___/    __  /_   __  __/   
+/ /_/ / /  __/  / / /  __/(__  )_  / _(__  )     _  __/   _  /___   
+\____/  \___//_/ /_/\___//____/ /_/  /____/      /_/      /_____/   							
+
+by rqz					
+https://discord.com/invite/aEZpBEHgMT
+]]--
+
+--====================================--
+--           FDless Options           --
+--====================================--
+
+allowshiftlock = true --adds shiftlock to patchma rig
+ctrltp = true --adds control click tp
+placeholders = true --adds transparent parts showing your hats when you don't have real ones
+clickfling = false --adds click flinging regardless of attacks
+highlightflingtargets = true --highlight fling
+discharscripts = true --disable character scripts
+flingchangestate = true --fling with whole body
+hidedeatheffect = true --hides the red damage border when you die (respawn)
+respawntp = 3 --respawn tp mode
+-- 0 - stay at spawn
+-- 1 - randomtp close
+-- 2 - behind fake character
+-- 3 - hide body
+breakjointsmethod = 1 --breakjoints mode
+-- 1 - health+breakjoints (the most support)
+-- 2 - health or breakjoints
+-- 3 - breakjoints
+simrad = true --sets simulation radius
+
+--==========================================================================================================================--
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Minigun"))()
+
+--==========================================================================================================================--
+end)
+
+tab.newButton("Lightning Sword", "THIS STUFF NOT WORK", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3CnTo6h"))()
+end)
+
+tab.newButton("Corrupted Overseer", "genesis working on all games hat needed", function()
+--[[
+_________                       _____            ___________________
+__  ____/__________________________(_)_______    ___  ____/__  ____/
+_  / __ _  _ \_  __ \  _ \_  ___/_  /__  ___/    __  /_   __  __/   
+/ /_/ / /  __/  / / /  __/(__  )_  / _(__  )     _  __/   _  /___   
+\____/  \___//_/ /_/\___//____/ /_/  /____/      /_/      /_____/   							
+
+by rqz					
+https://discord.com/invite/aEZpBEHgMT
+]]--
+
+--====================================--
+--           FDless Options           --
+--====================================--
+
+allowshiftlock = true --adds shiftlock to patchma rig
+ctrltp = true --adds control click tp
+placeholders = true --adds transparent parts showing your hats when you don't have real ones
+clickfling = false --adds click flinging regardless of attacks
+highlightflingtargets = true --highlight fling
+discharscripts = true --disable character scripts
+flingchangestate = true --fling with whole body
+hidedeatheffect = true --hides the red damage border when you die (respawn)
+respawntp = 3 --respawn tp mode
+-- 0 - stay at spawn
+-- 1 - randomtp close
+-- 2 - behind fake character
+-- 3 - hide body
+breakjointsmethod = 1 --breakjoints mode
+-- 1 - health+breakjoints (the most support)
+-- 2 - health or breakjoints
+-- 3 - breakjoints
+simrad = true --sets simulation radius
+
+--==========================================================================================================================--
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Good%20Cop%20Bad%20Cop"))()
+
+--==========================================================================================================================--
+end)
+
+tab.newButton("Darth Vadar", "genesis working on all games hat needed", function()
+DisableFlingHealthBar = false
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Linked%20Sword"))()
+end)
+
+tab.newButton("Sans", "THIS STUFF NOT WORK", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3vMd56u"))()
+end)
+
+tab.newButton("Zen", "THIS STUFF NOT WORK", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3IMQOcx"))()
+end)
+
+tab.newButton("Gale Fighter", "idk if its working on r15", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/XPGSMEw9"))()
+end)
+
+tab.newButton("Gale Fighter 2", "genesis working on all games hat needed", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Gale%20Fighter"))()
+end)
+
+tab.newButton("Glove & Sword", "THIS STUFF NOT WORK", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3ISOvVv"))()
+end)
+
+tab.newButton("Reaper", "THIS STUFF NOT WORK", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3HTwHIe"))()
+end)
+
+tab.newButton("Zenith Rifle", "genesis working on all games hat needed", function()
+--[[
+_________                       _____            ___________________
+__  ____/__________________________(_)_______    ___  ____/__  ____/
+_  / __ _  _ \_  __ \  _ \_  ___/_  /__  ___/    __  /_   __  __/   
+/ /_/ / /  __/  / / /  __/(__  )_  / _(__  )     _  __/   _  /___   
+\____/  \___//_/ /_/\___//____/ /_/  /____/      /_/      /_____/   							
+
+by rqz					
+https://discord.com/invite/aEZpBEHgMT
+]]--
+
+--====================================--
+--           FDless Options           --
+--====================================--
+
+allowshiftlock = true --adds shiftlock to patchma rig
+ctrltp = false --adds control click tp
+placeholders = true --adds transparent parts showing your hats when you don't have real ones
+clickfling = false --adds click flinging regardless of attacks
+highlightflingtargets = true --highlight fling
+discharscripts = true --disable character scripts
+flingchangestate = true --fling with whole body
+hidedeatheffect = true --hides the red damage border when you die (respawn)
+respawntp = 3 --respawn tp mode
+-- 0 - stay at spawn
+-- 1 - randomtp close
+-- 2 - behind fake character
+-- 3 - hide body
+breakjointsmethod = 1 --breakjoints mode
+-- 1 - health+breakjoints (the most support)
+-- 2 - health or breakjoints
+-- 3 - breakjoints
+simrad = true --sets simulation radius
+
+--==========================================================================================================================--
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/AK-47"))()
+
+--==========================================================================================================================--
+end)
+
+tab.newButton("Abyss Eye", "by melon scripter working on all games hat needed", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Ldu867iT", true))()
+end)
+
+tab.newButton("Bizzaro", "THIS STUFF NOT WORK", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3ClMr5X"))()
+end)
+
+tab.newButton("Sword Guy", "genesis working on all games hat needed", function()
+DisableFlingHealthBar = false
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Linked%20Sword"))()
+end)
+
+tab.newButton("Sharpshooter", "genesis working on all games hats needed", function()
+--[[
+_________                       _____            ___________________
+__  ____/__________________________(_)_______    ___  ____/__  ____/
+_  / __ _  _ \_  __ \  _ \_  ___/_  /__  ___/    __  /_   __  __/   
+/ /_/ / /  __/  / / /  __/(__  )_  / _(__  )     _  __/   _  /___   
+\____/  \___//_/ /_/\___//____/ /_/  /____/      /_/      /_____/   							
+
+by rqz					
+https://discord.com/invite/aEZpBEHgMT
+]]--
+
+--====================================--
+--           FDless Options           --
+--====================================--
+
+allowshiftlock = true --adds shiftlock to patchma rig
+ctrltp = true --adds control click tp
+placeholders = true --adds transparent parts showing your hats when you don't have real ones
+clickfling = false --adds click flinging regardless of attacks
+highlightflingtargets = true --highlight fling
+discharscripts = true --disable character scripts
+flingchangestate = true --fling with whole body
+hidedeatheffect = true --hides the red damage border when you die (respawn)
+respawntp = 3 --respawn tp mode
+-- 0 - stay at spawn
+-- 1 - randomtp close
+-- 2 - behind fake character
+-- 3 - hide body
+breakjointsmethod = 1 --breakjoints mode
+-- 1 - health+breakjoints (the most support)
+-- 2 - health or breakjoints
+-- 3 - breakjoints
+simrad = true --sets simulation radius
+
+--==========================================================================================================================--
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Sniper"))()
+
+--==========================================================================================================================--
+
+end)
+
+tab.newButton("Dual Pink Guns", "genesis works on all games hat needed", function()
+--[[
+_________                       _____            ___________________
+__  ____/__________________________(_)_______    ___  ____/__  ____/
+_  / __ _  _ \_  __ \  _ \_  ___/_  /__  ___/    __  /_   __  __/   
+/ /_/ / /  __/  / / /  __/(__  )_  / _(__  )     _  __/   _  /___   
+\____/  \___//_/ /_/\___//____/ /_/  /____/      /_/      /_____/   							
+
+by rqz					
+https://discord.com/invite/aEZpBEHgMT
+]]--
+
+--====================================--
+--           FDless Options           --
+--====================================--
+
+allowshiftlock = true --adds shiftlock to patchma rig
+ctrltp = true --adds control click tp
+placeholders = true --adds transparent parts showing your hats when you don't have real ones
+clickfling = false --adds click flinging regardless of attacks
+highlightflingtargets = true --highlight fling
+discharscripts = true --disable character scripts
+flingchangestate = true --fling with whole body
+hidedeatheffect = true --hides the red damage border when you die (respawn)
+respawntp = 3 --respawn tp mode
+-- 0 - stay at spawn
+-- 1 - randomtp close
+-- 2 - behind fake character
+-- 3 - hide body
+breakjointsmethod = 1 --breakjoints mode
+-- 1 - health+breakjoints (the most support)
+-- 2 - health or breakjoints
+-- 3 - breakjoints
+simrad = true --sets simulation radius
+
+--==========================================================================================================================--
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Sadist%20Genocider"))()
+
+--==========================================================================================================================--
+end)
+
+tab.newButton("Aureate", "genesis works on all games hat needed", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Neptunian%20V"))()
+end)
+
+tab.newButton("Doomspire Brickbattler", "THIS STUFF NTO WORK", function()
+loadstring(game:HttpGetAsync("https://bit.ly/35UvALg"))()
+end)
+
+tab.newButton("Star Glitcher", "genesis works on all games hat needed", function()
+-- SET THE VARIABLE BELOW TO TRUE TO DISABLE ALL EFFECTS, COULD HELP WITH PERFORMANCE ISSUES
+DisableFX = true
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Star%20Glitcher"))()
+end)
+
+tab.newButton("Nightmare Sans", "THIS STUFF NOT WORK", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3CoQgaf"))()
+end)
+
+tab.newButton("Abyss Sword", "idk if its works but u need Slasher gear", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3IV2mub"))()
+end)
+
+tab.newButton("Dark Magic", "THIS STUFF NOT WORK", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3tGWxu2"))()
+end)
+
+tab.newButton("Torando Gauntlet", "THIS STUFF NOT WORK", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3sPnaO5"))()
+end)
+
+tab.newButton("Hidden blades - From AC", "THIS STUFF NOT WORK", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3vOxqbA"))()
+end)
+
+tab.newButton("Despira", "THIS STUFF NOT WORK", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3MyUAZe"))()
+end)
+
+tab.newButton("Golden Fireball God", "THIS STUFF PATCHED", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3KI6j6j"))()
+end)
+
+tab.newButton("Simple Sword", "THIS STUFF PATCHED", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3pMXkIS"))()
+end)
+
+tab.newButton("Brutal Anti Furry", "THIS STUFF PATCHED", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3HLqxdm"))()
+end)
+
+tab.newButton("Omni God", "THIS STUFF PATCHED", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3Cq1nQc"))()
+end)
+
+tab.newButton("Baldi", "THIS STUFF PATCHED", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3Kpj1GH"))()
+end)
+
+tab.newButton("Shedletsky Rage", "THIS STUFF PATCHED", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3pLSf3E"))()
+end)
+
+tab.newButton("Nebula Star Glitcher", "THIS STUFF PATCHED", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3IUb8ZC"))()
+end)
+
+tab.newButton("Lustris PURPLE", "THIS STUFF PATCHED", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3MzAGxq"))()
+end)
+
+tab.newButton("Touhou Magic", "THIS STUFF PATCHED", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3pNw3Wz"))()
+end)
+
+tab.newButton("Excalibur", "THIS STUFF PATCHED", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3tB2Qzu"))()
+end)
+
+tab.newButton("John Doe", "Melon Scripter John Doe script hat needed", function()
+--[[
+||      ||
+|| Info ||
+||      ||
+
+// Name: John Doe V1
+// Created: by MelonScripter/Melon/Cherry
+
+||         ||
+|| Credits ||
+||         ||
+
+// MyWorld (Optimized the reanimated)
+// Emperean (Created the reanimate)
+// MelonScripter (Created and animated the script)
+// Nebula_Zoroark (Created the lerp template)
+
+||      ||
+|| Hats ||
+||      ||
+
+// Paid
+https://www.roblox.com/catalog/12344591101/Extra-Right-hand-moving-Blocky-white 
+https://www.roblox.com/catalog/12344545199/Extra-Left-hand-moving-Blocky-white
+https://www.roblox.com/catalog/11159410305/Rectangle-Head-For-Headless
+https://www.roblox.com/catalog/11263254795/Dummy-Head-For-Headless
+https://www.roblox.com/catalog/13779879140/Black-Fluffy-Fur-Body
+
+// Free
+https://www.roblox.com/catalog/4819740796/Robox
+https://www.roblox.com/catalog/3033910400/International-Fedora-Germany
+https://www.roblox.com/catalog/3409612660/International-Fedora-USA
+https://www.roblox.com/catalog/9867481700/Le-Rouge-Cross-body-Bag-1-0
+https://www.roblox.com/catalog/9867487176/Le-Rouge-Cross-body-Bag-3-0
+]]
+
+
+loadstring(game:HttpGet("https://gist.githubusercontent.com/MelonsStuff/83dd177230b8dff6a6e7108ec689299a/raw/2cb2e8bbd1e067df99192370842b2025ed942850/JohnDoeV1.txt"))()
+end)
+
+tab.newButton("What another one", "THIS STUFF PATCHED", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3IUKqjB"))()
+end)
+
+tab.newButton("Ether", "THIS STUFF PATCHED", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3KhwWyC"))()
+end)
+
+tab.newButton("Uncle Parlo The Redneck", "THIS STUFF PATCHED", function()
+loadstring(game:HttpGetAsync("https://bit.ly/3tCGkpF"))()
+end)
+
+tab.newButton("Eyo Zen", "Guy with eyeball by melon scripter", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Ldu867iT", true))()
+end)
+
+tab.newButton("Cop", "Your average cop. genesis hat needed", function()
+--[[
+_________                       _____            ___________________
+__  ____/__________________________(_)_______    ___  ____/__  ____/
+_  / __ _  _ \_  __ \  _ \_  ___/_  /__  ___/    __  /_   __  __/   
+/ /_/ / /  __/  / / /  __/(__  )_  / _(__  )     _  __/   _  /___   
+\____/  \___//_/ /_/\___//____/ /_/  /____/      /_/      /_____/   							
+
+by rqz					
+https://discord.com/invite/aEZpBEHgMT
+]]--
+
+--====================================--
+--           FDless Options           --
+--====================================--
+
+allowshiftlock = true --adds shiftlock to patchma rig
+ctrltp = true --adds control click tp
+placeholders = true --adds transparent parts showing your hats when you don't have real ones
+clickfling = false --adds click flinging regardless of attacks
+highlightflingtargets = true --highlight fling
+discharscripts = true --disable character scripts
+flingchangestate = true --fling with whole body
+hidedeatheffect = true --hides the red damage border when you die (respawn)
+respawntp = 3 --respawn tp mode
+-- 0 - stay at spawn
+-- 1 - randomtp close
+-- 2 - behind fake character
+-- 3 - hide body
+breakjointsmethod = 1 --breakjoints mode
+-- 1 - health+breakjoints (the most support)
+-- 2 - health or breakjoints
+-- 3 - breakjoints
+simrad = true --sets simulation radius
+
+--==========================================================================================================================--
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Good%20Cop%20Bad%20Cop"))()
+
+--==========================================================================================================================--
+end)
+
+tab.newButton("Verlex", "SCRIPT PATCHED", function()
+loadstring(game:HttpGetAsync("https://bit.ly/361hjws"))()
+end)
+
+tab.newButton("AK47", "genesis hat needed", function()
+--[[
+_________                       _____            ___________________
+__  ____/__________________________(_)_______    ___  ____/__  ____/
+_  / __ _  _ \_  __ \  _ \_  ___/_  /__  ___/    __  /_   __  __/   
+/ /_/ / /  __/  / / /  __/(__  )_  / _(__  )     _  __/   _  /___   
+\____/  \___//_/ /_/\___//____/ /_/  /____/      /_/      /_____/   							
+
+by rqz					
+https://discord.com/invite/aEZpBEHgMT
+]]--
+
+--====================================--
+--           FDless Options           --
+--====================================--
+
+allowshiftlock = true --adds shiftlock to patchma rig
+ctrltp = false --adds control click tp
+placeholders = true --adds transparent parts showing your hats when you don't have real ones
+clickfling = false --adds click flinging regardless of attacks
+highlightflingtargets = true --highlight fling
+discharscripts = true --disable character scripts
+flingchangestate = true --fling with whole body
+hidedeatheffect = true --hides the red damage border when you die (respawn)
+respawntp = 3 --respawn tp mode
+-- 0 - stay at spawn
+-- 1 - randomtp close
+-- 2 - behind fake character
+-- 3 - hide body
+breakjointsmethod = 1 --breakjoints mode
+-- 1 - health+breakjoints (the most support)
+-- 2 - health or breakjoints
+-- 3 - breakjoints
+simrad = true --sets simulation radius
+
+--==========================================================================================================================--
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/AK-47"))()
+
+--==========================================================================================================================--
+end)
+
+tab.newButton("Ban Sword", "genesis hat needed", function()
+--[[
+_________                       _____            ___________________
+__  ____/__________________________(_)_______    ___  ____/__  ____/
+_  / __ _  _ \_  __ \  _ \_  ___/_  /__  ___/    __  /_   __  __/   
+/ /_/ / /  __/  / / /  __/(__  )_  / _(__  )     _  __/   _  /___   
+\____/  \___//_/ /_/\___//____/ /_/  /____/      /_/      /_____/   							
+
+by rqz					
+https://discord.com/invite/aEZpBEHgMT
+]]--
+
+--====================================--
+--           FDless Options           --
+--====================================--
+
+allowshiftlock = true --adds shiftlock to patchma rig
+ctrltp = true --adds control click tp
+placeholders = true --adds transparent parts showing your hats when you don't have real ones
+clickfling = false --adds click flinging regardless of attacks
+highlightflingtargets = true --highlight fling
+discharscripts = true --disable character scripts
+flingchangestate = true --fling with whole body
+hidedeatheffect = true --hides the red damage border when you die (respawn)
+respawntp = 3 --respawn tp mode
+-- 0 - stay at spawn
+-- 1 - randomtp close
+-- 2 - behind fake character
+-- 3 - hide body
+breakjointsmethod = 1 --breakjoints mode
+-- 1 - health+breakjoints (the most support)
+-- 2 - health or breakjoints
+-- 3 - breakjoints
+simrad = true --sets simulation radius
+
+--==========================================================================================================================--
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Ban%20Hammer"))()
+
+--==========================================================================================================================--
+end)
+
+tab.newButton("Sniper", "genesis hat needed", function()
+--[[
+_________                       _____            ___________________
+__  ____/__________________________(_)_______    ___  ____/__  ____/
+_  / __ _  _ \_  __ \  _ \_  ___/_  /__  ___/    __  /_   __  __/   
+/ /_/ / /  __/  / / /  __/(__  )_  / _(__  )     _  __/   _  /___   
+\____/  \___//_/ /_/\___//____/ /_/  /____/      /_/      /_____/   							
+
+by rqz					
+https://discord.com/invite/aEZpBEHgMT
+]]--
+
+--====================================--
+--           FDless Options           --
+--====================================--
+
+allowshiftlock = true --adds shiftlock to patchma rig
+ctrltp = true --adds control click tp
+placeholders = true --adds transparent parts showing your hats when you don't have real ones
+clickfling = false --adds click flinging regardless of attacks
+highlightflingtargets = true --highlight fling
+discharscripts = true --disable character scripts
+flingchangestate = true --fling with whole body
+hidedeatheffect = true --hides the red damage border when you die (respawn)
+respawntp = 3 --respawn tp mode
+-- 0 - stay at spawn
+-- 1 - randomtp close
+-- 2 - behind fake character
+-- 3 - hide body
+breakjointsmethod = 1 --breakjoints mode
+-- 1 - health+breakjoints (the most support)
+-- 2 - health or breakjoints
+-- 3 - breakjoints
+simrad = true --sets simulation radius
+
+--==========================================================================================================================--
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Sniper"))()
+
+--==========================================================================================================================--
+end)
+
+tab.newButton("Dearsister gun", "genesis hat needed", function()
+--[[
+_________                       _____            ___________________
+__  ____/__________________________(_)_______    ___  ____/__  ____/
+_  / __ _  _ \_  __ \  _ \_  ___/_  /__  ___/    __  /_   __  __/   
+/ /_/ / /  __/  / / /  __/(__  )_  / _(__  )     _  __/   _  /___   
+\____/  \___//_/ /_/\___//____/ /_/  /____/      /_/      /_____/   							
+
+by rqz					
+https://discord.com/invite/aEZpBEHgMT
+]]--
+
+--====================================--
+--           FDless Options           --
+--====================================--
+
+allowshiftlock = true --adds shiftlock to patchma rig
+ctrltp = true --adds control click tp
+placeholders = true --adds transparent parts showing your hats when you don't have real ones
+clickfling = false --adds click flinging regardless of attacks
+highlightflingtargets = true --highlight fling
+discharscripts = true --disable character scripts
+flingchangestate = true --fling with whole body
+hidedeatheffect = true --hides the red damage border when you die (respawn)
+respawntp = 3 --respawn tp mode
+-- 0 - stay at spawn
+-- 1 - randomtp close
+-- 2 - behind fake character
+-- 3 - hide body
+breakjointsmethod = 1 --breakjoints mode
+-- 1 - health+breakjoints (the most support)
+-- 2 - health or breakjoints
+-- 3 - breakjoints
+simrad = true --sets simulation radius
+
+--==========================================================================================================================--
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Dearsister"))()
+
+--==========================================================================================================================--
+end)
+
+tab.newButton("Studio Dummy", "genesis hat needed", function()
+--[[
+_________                       _____            ___________________
+__  ____/__________________________(_)_______    ___  ____/__  ____/
+_  / __ _  _ \_  __ \  _ \_  ___/_  /__  ___/    __  /_   __  __/   
+/ /_/ / /  __/  / / /  __/(__  )_  / _(__  )     _  __/   _  /___   
+\____/  \___//_/ /_/\___//____/ /_/  /____/      /_/      /_____/   							
+
+by rqz					
+https://discord.com/invite/aEZpBEHgMT
+]]--
+
+--====================================--
+--           FDless Options           --
+--====================================--
+
+allowshiftlock = true --adds shiftlock to patchma rig
+ctrltp = true --adds control click tp
+placeholders = true --adds transparent parts showing your hats when you don't have real ones
+clickfling = false --adds click flinging regardless of attacks
+highlightflingtargets = true --highlight fling
+discharscripts = true --disable character scripts
+flingchangestate = true --fling with whole body
+hidedeatheffect = true --hides the red damage border when you die (respawn)
+respawntp = 3 --respawn tp mode
+-- 0 - stay at spawn
+-- 1 - randomtp close
+-- 2 - behind fake character
+-- 3 - hide body
+breakjointsmethod = 1 --breakjoints mode
+-- 1 - health+breakjoints (the most support)
+-- 2 - health or breakjoints
+-- 3 - breakjoints
+simrad = true --sets simulation radius
+
+--==========================================================================================================================--
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Studio%20Dummy"))()
+
+--==========================================================================================================================--
+end)
+
+tab.newButton("there's so much features in pendulum hub", "so i just add these", function()
+print("hello")
+end)
+
+tab.newButton("the script is so big and im in mobile so", "i dont add more features in pendulum hub", function()
+print("Hello")
+end)
+
+tab.newButton("soon maybe i will add more features", "", function()
+print("Hello!")
+end)
+
+tab.newButton("KJ", "this script is universal not for tsb", function()
+loadstring(game:HttpGet("https://pastefy.app/sdAujywd/raw"))()
+end)
+
+tab.newButton("Sad boy", "why are u sad lil bro", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/hgPJbwF0"))()
+end)
+
+tab.newButton("i want sleep😭", "Pls No jk dont take it serious🙄", function()
+print("im sleppy")
+end)
+
+tab.newButton("Honored one", "i mean kitkat- LOLL", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Cortzalno666/NectoVerse-Industries-Data/master/Scripts%20Folder/Honored.lua'),true))()
+end)
+
+tab.newButton("Glios", "another fire shit script", function()
+writefile(".nonecing", "white")
+loadstring(game:HttpGet(('https://glot.io/snippets/gua2ntmbdm/raw/main.lua'),true))()
+end)
+
+tab.newButton("end of script", "more features coming soon", function()
+print("kitkat")
+end)
